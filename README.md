@@ -1,10 +1,8 @@
-# Task-manager-app
-A kanban-style task manager built with React — featuring login/register, drag and drop across three stages, real-time search, and dark mode. No backend, no libraries — just React and localStorage.
 # Taskflow — Task Manager
 
 A clean, responsive kanban-style task manager built with React. Manage your tasks across three stages with a smooth drag-and-drop interface.
 
-🔗 **Live Demo**: [_[add your deployment URL here]_](https://6a18dd96a5b7d100080cb9cb--creative-beijinho-e840b4.netlify.app/)
+🔗 **Live Demo**: https://6a18dd96a5b7d100080cb9cb--creative-beijinho-e840b4.netlify.app/
 
 ---
 
@@ -37,7 +35,7 @@ A clean, responsive kanban-style task manager built with React. Manage your task
 | State Management | React `useState` + custom `useLocalStorage` hook |
 | Drag & Drop | HTML5 Drag and Drop API (no library) |
 | Data Persistence | Browser `localStorage` |
-| Deployment | Netlify / Vercel |
+| Deployment | Netlify |
 
 ---
 
@@ -50,10 +48,10 @@ A clean, responsive kanban-style task manager built with React. Manage your task
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/taskflow.git
+git clone https://github.com/JyothisAlukka/Task-manager-app.git
 
 # 2. Navigate into the project
-cd taskflow
+cd Task-manager-app
 
 # 3. Install dependencies
 npm install
@@ -77,7 +75,7 @@ The production-ready files will be in the `dist/` folder.
 ## Deployment Guide (Netlify — Free)
 
 1. Push this repository to GitHub
-2. Go to [[netlify.com](https://netlify.com)](https://6a18dd96a5b7d100080cb9cb--creative-beijinho-e840b4.netlify.app/) and click **"Add new site"**
+2. Go to [netlify.com](https://netlify.com) and click **"Add new site"**
 3. Select **"Import from Git"** and connect your GitHub repo
 4. Set the following:
    - **Build command:** `npm run build`
@@ -89,7 +87,7 @@ The production-ready files will be in the `dist/` folder.
 ## Project Structure
 
 ```
-taskflow/
+Task-manager-app/
 ├── public/
 ├── src/
 │   ├── components/
