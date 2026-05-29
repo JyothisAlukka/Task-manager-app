@@ -8,7 +8,7 @@ A clean, responsive kanban-style task manager built with React. Manage your task
 
 ## Screenshots
 
-> _Add screenshots here after deployment_
+![Uploading image.png…]()
 
 ---
 
